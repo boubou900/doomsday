@@ -58,6 +58,6 @@ def doomsday(date):
     le_jour_nombre=(j_doomsday_day+diff_jour(date[0],date[1],date[3]))%7
     return num_jour(le_jour_nombre)
 def jeu():
-    a=input('quel date? veillez a bien l ecrire de la forme 05/09/20/04, c est a vous!         ')
-    print(doomsday(a))
+    date=input('quel date? veillez a bien l ecrire sous la forme 05/09/20/04, c est a vous!         ')
+    print(doomsday(date))
 jeu()
